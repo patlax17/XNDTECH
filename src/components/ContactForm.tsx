@@ -31,7 +31,7 @@ export default function ContactForm() {
                 const json = await res.json().catch(() => ({}));
                 setError(
                     json?.errors?.[0]?.message ||
-                    "Something went wrong. Please try again or email me directly."
+                    "Something went wrong. Please try again or email us directly."
                 );
                 setStatus("error");
             }
@@ -115,7 +115,7 @@ export default function ContactForm() {
                     name="message"
                     required
                     rows={5}
-                    placeholder="Tell me about your project, your business, and what you need..."
+                    placeholder="Tell us about your project, your business, and what you need..."
                     className="w-full bg-brand-bg border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text placeholder:text-brand-muted focus:outline-none focus:border-brand-blue transition resize-none"
                 />
             </div>
@@ -130,7 +130,7 @@ export default function ContactForm() {
             {/* Success */}
             {status === "success" && (
                 <div className="bg-green-500/10 border border-green-500/30 text-green-400 rounded-lg px-4 py-3 text-sm">
-                    ✅ Message sent! I&apos;ll get back to you within 24 hours.
+                    ✅ Message sent! We&apos;ll get back to you within 24 hours.
                 </div>
             )}
 

@@ -90,7 +90,7 @@ export default function Hero() {
                         className="btn-secondary text-base px-7 py-3.5"
                         id="hero-cta-secondary"
                     >
-                        See my work
+                        See our work
                     </Link>
                 </div>
 

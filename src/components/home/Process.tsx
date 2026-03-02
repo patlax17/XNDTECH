@@ -16,7 +16,7 @@ const steps = [
         number: "02",
         title: "We Build",
         description:
-            "I design and develop your site with your brand assets and copy. You'll get a preview link to review and request tweaks.",
+            "We design and develop your site with your brand assets and copy. You'll get a preview link to review and request tweaks.",
         icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} className="w-6 h-6">
                 <polyline points="16 18 22 12 16 6" />
@@ -28,7 +28,7 @@ const steps = [
         number: "03",
         title: "Launch",
         description:
-            "Site goes live on your domain. I handle deployment and provide a handover doc so you can manage it going forward.",
+            "Site goes live on your domain. We handle deployment and provide a handover doc so you can manage it going forward.",
         icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} className="w-6 h-6">
                 <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 19-7z" />

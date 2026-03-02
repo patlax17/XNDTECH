@@ -59,7 +59,7 @@ export default function ContactPage() {
                     Let&apos;s Talk
                 </h1>
                 <p className="text-brand-muted text-lg max-w-xl mx-auto">
-                    Have a project in mind? Send me a message and I&apos;ll get back to you
+                    Have a project in mind? Send us a message and we&apos;ll get back to you
                     within 24 hours.
                 </p>
             </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                     {/* Social links */}
                     <div className="bg-brand-surface border border-brand-border rounded-2xl p-7">
                         <h2 className="font-display font-bold text-xl text-white mb-4">
-                            Find me online
+                            Find us online
                         </h2>
                         <div className="grid grid-cols-2 gap-3">
                             {socials.map((s) => (
@@ -128,7 +128,7 @@ export default function ContactPage() {
                                     Fast Response Time
                                 </p>
                                 <p className="text-brand-muted text-sm leading-relaxed">
-                                    I reply to all messages within 24 hours on business days. For
+                                    We reply to all messages within 24 hours on business days. For
                                     urgent projects, mention it in your message.
                                 </p>
                             </div>

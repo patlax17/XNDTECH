@@ -8,23 +8,23 @@ const faqs = [
     },
     {
         q: "What do I need to provide?",
-        a: "Your logo (if you have one), any photos or branding colors, and the copy/text for each page. Don't have copy? I can write basic placeholder text — or recommend a copywriter.",
+        a: "Your logo (if you have one), any photos or branding colors, and the copy/text for each page. Don't have copy? We can write basic placeholder text — or recommend a copywriter.",
     },
     {
         q: "Do you handle domain and hosting?",
-        a: "Yes. I recommend deploying on Vercel (free tier available) with your own domain from any registrar (GoDaddy, Namecheap, etc.). I'll walk you through the setup or handle it for you.",
+        a: "Yes. We recommend deploying on Vercel (free tier available) with your own domain from any registrar (GoDaddy, Namecheap, etc.). We'll walk you through the setup or handle it for you.",
     },
     {
         q: "Will my site be mobile-friendly?",
-        a: "Absolutely. Every site I build is mobile-first by default. It will look great on phones, tablets, and desktops.",
+        a: "Absolutely. Every site we build is mobile-first by default. It will look great on phones, tablets, and desktops.",
     },
     {
         q: "Can I update the site myself after launch?",
-        a: "Yes! I'll give you a handover doc explaining how to edit text and images. For more complex edits, you can always reach out for a small hourly rate.",
+        a: "Yes! We'll give you a handover doc explaining how to edit text and images. For more complex edits, you can always reach out for a small hourly rate.",
     },
     {
         q: "Do you offer ongoing maintenance?",
-        a: "Not as a recurring plan currently. But for small updates (text changes, adding a page), I'm available on a per-task basis. Just reach out.",
+        a: "Not as a recurring plan currently. But for small updates (text changes, adding a page), we're available on a per-task basis. Just reach out.",
     },
 ];
 

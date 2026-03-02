@@ -23,10 +23,10 @@ export default function WorkPage() {
             <div className="mb-12 text-center">
                 <span className="section-label">Portfolio</span>
                 <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl text-white mt-2 mb-4">
-                    My Work
+                    Our Work
                 </h1>
                 <p className="text-brand-muted text-lg max-w-xl mx-auto">
-                    A collection of sites I&apos;ve designed and built for small businesses.
+                    A collection of sites we&apos;ve designed and built for small businesses and brands.
                     Each one delivered fast, clean, and conversion-focused.
                 </p>
             </div>
