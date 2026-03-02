@@ -1,24 +1,17 @@
 const testimonials = [
     {
         quote:
-            "An exceptional establishment. The space is HUGE. It's a blank canvas which is a creatives dream. Don't wait — BOOK NOW.",
-        author: "R.C.",
-        role: "Client — The Ivory On Park",
-        initials: "RC",
+            "I am very pleased and happy with Patrick and his team's capabilities of creating my website. I am actually astonished with the finished product and felt like he deserved more compensation.",
+        author: "City Pulse CEO",
+        role: "CEO — City Pulse Streetwear",
+        initials: "CP",
     },
     {
         quote:
-            "Great space for a variety of events. There are multiple restrooms, bar & a kitchen/prep area. The owner is charismatic & helpful! I definitely recommend.",
-        author: "Herodiane L.",
-        role: "Client — The Ivory On Park",
-        initials: "HL",
-    },
-    {
-        quote:
-            "This space was beyond amazing and the owner did everything to accommodate me and my friends. He gave us a reasonable price. Highly recommend.",
-        author: "Adebisi A.",
-        role: "Client — The Ivory On Park",
-        initials: "AA",
+            "So thankful for Patrick and XNDR Tech. They turned our regular HTML website into something HUGE. Now as an event space we have a live ticketed system, can accept deposits from our website, and so much more.",
+        author: "Tola",
+        role: "CEO — The Ivory On Park",
+        initials: "TO",
     },
 ];
 
@@ -35,12 +28,11 @@ export default function Testimonials() {
                         What Clients Say
                     </h2>
                     <p className="text-brand-muted text-lg max-w-xl mx-auto">
-                        Real feedback from real business owners. Replace these with your
-                        actual testimonials.
+                        Real feedback from real business owners we&apos;ve built for.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
                     {testimonials.map((t) => (
                         <div
                             key={t.author}
