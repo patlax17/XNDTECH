@@ -1,12 +1,7 @@
 "use client";
 import { useState } from "react";
 
-// ─── REPLACE this action URL with your real Formspree endpoint ─────────────
-// 1. Go to https://formspree.io and create a free account
-// 2. Create a new form → copy the action URL (e.g. https://formspree.io/f/xabcdefg)
-// 3. Paste it below
-const FORMSPREE_URL = "https://formspree.io/f/YOUR_FORM_ID"; // 🔗 REPLACE
-// ──────────────────────────────────────────────────────────────────────────────
+const FORMSPREE_URL = "https://formspree.io/f/mpqjgqze";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -151,7 +146,7 @@ export default function ContactForm() {
             <p className="text-center text-xs text-brand-muted">
                 Prefer email?{" "}
                 <a
-                    href="mailto:hello@xndrtechnology.com" // 🔗 REPLACE with your real email
+                    href="mailto:hello@xndrtechnology.com"
                     className="text-brand-blue hover:underline"
                 >
                     hello@xndrtechnology.com
