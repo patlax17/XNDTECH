@@ -9,41 +9,14 @@ export const metadata: Metadata = {
 
 const socials = [
     {
-        name: "Twitter / X",
-        href: "https://twitter.com/xndrtechnology", // 🔗 REPLACE
-        icon: (
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.392 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-            </svg>
-        ),
-    },
-    {
         name: "Instagram",
-        href: "https://instagram.com/xndrtechnology", // 🔗 REPLACE
+        href: "https://www.instagram.com/xndr.technology",
+        handle: "@xndr.technology",
         icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} className="w-5 h-5">
                 <rect x="2" y="2" width="20" height="20" rx="5" />
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-            </svg>
-        ),
-    },
-    {
-        name: "LinkedIn",
-        href: "https://linkedin.com/company/xndrtechnology", // 🔗 REPLACE
-        icon: (
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
-                <circle cx="4" cy="4" r="2" />
-            </svg>
-        ),
-    },
-    {
-        name: "GitHub",
-        href: "https://github.com/xndrtechnology", // 🔗 REPLACE
-        icon: (
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
             </svg>
         ),
     },
@@ -97,7 +70,7 @@ export default function ContactPage() {
                         <h2 className="font-display font-bold text-xl text-white mb-4">
                             Find us online
                         </h2>
-                        <div className="grid grid-cols-2 gap-3">
+                        <div className="grid grid-cols-1 gap-3">
                             {socials.map((s) => (
                                 <a
                                     key={s.name}
@@ -108,7 +81,10 @@ export default function ContactPage() {
                                     id={`social-${s.name.toLowerCase().replace(/\s+\/\s+|\s+/g, "-")}`}
                                 >
                                     <span className="text-brand-blue">{s.icon}</span>
-                                    {s.name}
+                                    <span>
+                                        <span className="block text-white font-medium">{s.name}</span>
+                                        {"handle" in s && <span className="block text-xs text-brand-muted">{s.handle}</span>}
+                                    </span>
                                 </a>
                             ))}
                         </div>

@@ -10,23 +10,8 @@ const footerLinks = {
     ],
     Connect: [
         {
-            href: "https://twitter.com/xndrtechnology", // 🔗 REPLACE
-            label: "Twitter / X",
-            external: true,
-        },
-        {
-            href: "https://instagram.com/xndrtechnology", // 🔗 REPLACE
-            label: "Instagram",
-            external: true,
-        },
-        {
-            href: "https://linkedin.com/company/xndrtechnology", // 🔗 REPLACE
-            label: "LinkedIn",
-            external: true,
-        },
-        {
-            href: "https://github.com/xndrtechnology", // 🔗 REPLACE
-            label: "GitHub",
+            href: "https://www.instagram.com/xndr.technology",
+            label: "Instagram — @xndr.technology",
             external: true,
         },
     ],
