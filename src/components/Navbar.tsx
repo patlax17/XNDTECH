@@ -29,8 +29,8 @@ export default function Navbar() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-                    ? "bg-brand-bg/90 backdrop-blur-md border-b border-brand-border shadow-md"
-                    : "bg-transparent"
+                ? "bg-brand-bg/90 backdrop-blur-md border-b border-brand-border shadow-md"
+                : "bg-transparent"
                 }`}
         >
             <nav className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-18">
@@ -59,8 +59,8 @@ export default function Navbar() {
                                 <Link
                                     href={link.href}
                                     className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${active
-                                            ? "text-white bg-brand-surface border border-brand-border"
-                                            : "text-brand-muted hover:text-white hover:bg-white/5"
+                                        ? "text-white bg-brand-surface border border-brand-border"
+                                        : "text-brand-muted hover:text-white hover:bg-white/5"
                                         }`}
                                 >
                                     {link.label}
@@ -73,7 +73,7 @@ export default function Navbar() {
                 {/* CTA + Mobile toggle */}
                 <div className="flex items-center gap-3">
                     <a
-                        href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                        href="https://calendly.com/patsokoya17/30min"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hidden md:inline-flex btn-primary text-sm py-2 px-4"
@@ -119,8 +119,8 @@ export default function Navbar() {
                                     <Link
                                         href={link.href}
                                         className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition ${active
-                                                ? "text-white bg-brand-bg"
-                                                : "text-brand-muted hover:text-white hover:bg-white/5"
+                                            ? "text-white bg-brand-bg"
+                                            : "text-brand-muted hover:text-white hover:bg-white/5"
                                             }`}
                                     >
                                         {link.label}
@@ -130,7 +130,7 @@ export default function Navbar() {
                         })}
                     </ul>
                     <a
-                        href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                        href="https://calendly.com/patsokoya17/30min"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-primary w-full justify-center text-sm"

@@ -58,7 +58,7 @@ export default function Footer() {
                             design, mobile-first — at a price that makes sense.
                         </p>
                         <a
-                            href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                            href="https://calendly.com/patsokoya17/30min"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-primary inline-flex mt-5 text-sm py-2 px-4"

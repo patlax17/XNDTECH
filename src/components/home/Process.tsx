@@ -80,7 +80,7 @@ export default function Process() {
 
                 <div className="text-center mt-12">
                     <a
-                        href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                        href="https://calendly.com/patsokoya17/30min"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-primary"

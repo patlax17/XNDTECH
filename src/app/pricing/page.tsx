@@ -101,16 +101,16 @@ export default function PricingPage() {
                     <div
                         key={plan.name}
                         className={`relative flex flex-col rounded-2xl border p-8 transition-all duration-300 ${plan.highlight
-                                ? "bg-brand-blue/5 border-brand-blue shadow-xl shadow-brand-blue/10 scale-[1.02]"
-                                : "bg-brand-surface border-brand-border card-hover"
+                            ? "bg-brand-blue/5 border-brand-blue shadow-xl shadow-brand-blue/10 scale-[1.02]"
+                            : "bg-brand-surface border-brand-border card-hover"
                             }`}
                     >
                         {/* Badge */}
                         {plan.badge && (
                             <span
                                 className={`absolute -top-3.5 left-1/2 -translate-x-1/2 text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded-full border ${plan.highlight
-                                        ? "bg-brand-blue text-white border-brand-blue"
-                                        : "bg-brand-surface text-brand-blue border-brand-blue/30"
+                                    ? "bg-brand-blue text-white border-brand-blue"
+                                    : "bg-brand-surface text-brand-blue border-brand-blue/30"
                                     }`}
                             >
                                 {plan.badge}
@@ -141,7 +141,7 @@ export default function PricingPage() {
 
                         {/* CTA */}
                         <a
-                            href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                            href="https://calendly.com/patsokoya17/30min"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={plan.highlight ? "btn-primary justify-center" : "btn-secondary justify-center"}
@@ -216,7 +216,7 @@ export default function PricingPage() {
                     Not sure which plan is right for you?
                 </p>
                 <a
-                    href="https://calendly.com" // 🔗 REPLACE
+                    href="https://calendly.com/patsokoya17/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary"

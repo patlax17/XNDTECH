@@ -77,7 +77,7 @@ export default function Hero() {
                 {/* CTAs */}
                 <div className="hero-animate opacity-0 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a
-                        href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                        href="https://calendly.com/patsokoya17/30min"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-primary text-base px-7 py-3.5"

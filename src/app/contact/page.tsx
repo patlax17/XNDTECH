@@ -82,7 +82,7 @@ export default function ContactPage() {
                             project, timeline, and budget — no pressure, no commitments.
                         </p>
                         <a
-                            href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                            href="https://calendly.com/patsokoya17/30min"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-primary w-full justify-center"

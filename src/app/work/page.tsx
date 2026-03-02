@@ -38,8 +38,8 @@ export default function WorkPage() {
                         key={tag}
                         onClick={() => setActiveTag(tag)}
                         className={`text-xs font-semibold px-4 py-1.5 rounded-full border transition-all duration-200 ${activeTag === tag
-                                ? "bg-brand-blue border-brand-blue text-white shadow-md shadow-brand-blue/20"
-                                : "bg-transparent border-brand-border text-brand-muted hover:border-brand-blue/40 hover:text-white"
+                            ? "bg-brand-blue border-brand-blue text-white shadow-md shadow-brand-blue/20"
+                            : "bg-transparent border-brand-border text-brand-muted hover:border-brand-blue/40 hover:text-white"
                             }`}
                         id={`filter-${tag.toLowerCase().replace(/\s+/g, "-")}`}
                         aria-pressed={activeTag === tag}
@@ -71,7 +71,7 @@ export default function WorkPage() {
                     Book a free call and let&apos;s talk about your project.
                 </p>
                 <a
-                    href="https://calendly.com" // 🔗 REPLACE with your Calendly link
+                    href="https://calendly.com/patsokoya17/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary"
