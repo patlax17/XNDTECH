@@ -19,11 +19,11 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: {
-    default: "XNDR Technology — Premium Web Design for Small Businesses",
+    default: "XNDR Technology — Websites That Look Expensive, Built Fast",
     template: "%s | XNDR Technology",
   },
   description:
-    "We build fast, clean, high-converting websites for small businesses. Mobile-first, SEO-ready, delivered fast. Book a free call today.",
+    "We build fast, custom websites, e-commerce platforms, and AI integrations for small businesses. Mobile-first, SEO-ready, delivered fast. Book a free call today.",
   keywords: [
     "web design",
     "small business website",
@@ -31,27 +31,79 @@ export const metadata: Metadata = {
     "XNDR Technology",
     "affordable website",
     "Next.js developer",
+    "e-commerce",
+    "AI integration",
+    "booking website",
+    "custom web development",
   ],
+
+  // ─── Open Graph (Facebook, Instagram, iMessage, WhatsApp, Discord, Slack) ──
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://xndrtechnology.com",
     siteName: "XNDR Technology",
-    title: "XNDR Technology — Premium Web Design for Small Businesses",
+    title: "XNDR Technology — Websites That Look Expensive, Built Fast",
     description:
-      "Websites that look expensive — built fast. Mobile-first, SEO-ready, quick turnaround.",
+      "Custom web development, e-commerce, and AI integrations for small businesses. Mobile-first. SEO-ready. Book a free discovery call.",
+    images: [
+      {
+        url: "https://xndr-site-two.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "XNDR Technology — Websites That Look Expensive, Built Fast",
+        type: "image/png",
+      },
+    ],
   },
+
+  // ─── Twitter / X Card ────────────────────────────────────────────────────
   twitter: {
     card: "summary_large_image",
-    title: "XNDR Technology — Premium Web Design",
+    title: "XNDR Technology — Websites That Look Expensive, Built Fast",
     description:
-      "Websites that look expensive — built fast. Mobile-first, SEO-ready, quick turnaround.",
+      "Custom web development, e-commerce, and AI integrations for small businesses.",
+    images: ["https://xndr-site-two.vercel.app/og-image.png"],
   },
+
+  // ─── Favicons & Icons ────────────────────────────────────────────────────
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    other: [
+      { rel: "mask-icon", url: "/favicon-32x32.png" },
+    ],
+  },
+
+  // ─── Web App Manifest (Android / PWA) ────────────────────────────────────
+  manifest: "/site.webmanifest",
+
+  // ─── Theme colors ─────────────────────────────────────────────────────────
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0f" },
+    { media: "(prefers-color-scheme: light)", color: "#0a0a0f" },
+  ],
+
+  // ─── Verification & indexing ──────────────────────────────────────────────
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
+
 
 export default function RootLayout({
   children,
