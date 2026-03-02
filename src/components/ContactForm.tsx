@@ -146,10 +146,10 @@ export default function ContactForm() {
             <p className="text-center text-xs text-brand-muted">
                 Prefer email?{" "}
                 <a
-                    href="mailto:hello@xndrtechnology.com"
+                    href="mailto:hello@xndr.technology"
                     className="text-brand-blue hover:underline"
                 >
-                    hello@xndrtechnology.com
+                    hello@xndr.technology
                 </a>
             </p>
         </form>

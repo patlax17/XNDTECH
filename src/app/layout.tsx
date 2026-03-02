@@ -41,14 +41,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://xndrtechnology.com",
+    url: "https://xndr.technology",
     siteName: "XNDR Technology",
     title: "XNDR Technology — Websites That Look Expensive, Built Fast",
     description:
       "Custom web development, e-commerce, and AI integrations for small businesses. Mobile-first. SEO-ready. Book a free discovery call.",
     images: [
       {
-        url: "https://xndr-site-two.vercel.app/og-image.png",
+        url: "https://xndr.technology/og-image.png",
         width: 1200,
         height: 630,
         alt: "XNDR Technology — Websites That Look Expensive, Built Fast",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: "XNDR Technology — Websites That Look Expensive, Built Fast",
     description:
       "Custom web development, e-commerce, and AI integrations for small businesses.",
-    images: ["https://xndr-site-two.vercel.app/og-image.png"],
+    images: ["https://xndr.technology/og-image.png"],
   },
 
   // ─── Favicons & Icons ────────────────────────────────────────────────────
