@@ -15,6 +15,17 @@ export interface Project {
 // ──────────────────────────────────────────────────────────────────────────────
 export const projects: Project[] = [
   {
+    slug: "pierre-reviews",
+    title: "Pierre Porter Reviews — Creator Hub",
+    description:
+      "A high-impact, dark-aesthetic landing page for lifestyle architect and creator Pierre Porter. Features video integration, brand stats, and a streamlined booking funnel for collaborations.",
+    tags: ["Creator Hub", "Landing Page", "Video Integration", "SEO"],
+    liveUrl: "https://www.pierrereviews.com",
+    repoUrl: "",
+    year: 2025,
+    image: "/images/pierre-reviews.png",
+  },
+  {
     slug: "the-ivory-on-park",
     title: "The Ivory On Park — Event Venue",
     description:
