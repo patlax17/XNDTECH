@@ -184,10 +184,18 @@ export default function PricingPage() {
             </div>
 
             {/* Disclaimer */}
-            <div className="bg-brand-surface border border-brand-border rounded-xl p-6 mb-12 text-sm text-brand-muted leading-relaxed max-w-3xl mx-auto text-center">
-                <strong className="text-white">Note:</strong> All bookings and payments are handled via external
-                tools (Calendly for scheduling, Stripe or bank transfer for payment). We do not process
-                payments through this website. You&apos;ll receive a payment link after the discovery call.
+            <div className="bg-brand-surface border border-brand-border rounded-xl p-6 mb-12 text-sm text-brand-muted leading-relaxed max-w-3xl mx-auto text-center space-y-3">
+                <p>
+                    <strong className="text-white">Note:</strong> All bookings and payments are handled via external
+                    tools (Calendly for scheduling, Stripe or bank transfer for payment). We do not process
+                    payments through this website. You&apos;ll receive a payment link after the discovery call.
+                </p>
+                <p>
+                    <strong className="text-white">⚠ Non-Refundable Deposit:</strong> A deposit is required to
+                    begin work. Once work has been created using that deposit, <strong className="text-white">the deposit
+                    is non-refundable</strong>. This protects the time and effort invested in your project from the
+                    moment work begins.
+                </p>
             </div>
 
             {/* Add-ons */}
