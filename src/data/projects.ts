@@ -58,5 +58,38 @@ export const projects: Project[] = [
     year: 2025,
     image: "/images/pat-lax.png",
   },
+  {
+    slug: "beyond-the-vow",
+    title: "Beyond the Vow — Luxury Wedding Coordination",
+    description:
+      "Elegant multi-page website for a luxury wedding coordination brand. Features a cinematic gallery, bridal beauty services, inquiry funnel, and a refined editorial aesthetic built to attract high-end clientele.",
+    tags: ["Business Website", "Multi-Page", "Landing Page", "SEO"],
+    liveUrl: "https://www.beyondthevow.co",
+    repoUrl: "",
+    year: 2025,
+    image: "/images/beyond-the-vow.png",
+  },
+  {
+    slug: "mark-shot-this",
+    title: "Mark Militar — Sports Photography Portfolio",
+    description:
+      "High-performance photography portfolio for sports photographer Mark Militar. Features a dynamic Cloudinary-powered gallery, category filtering, admin portal, and a mobile-first editorial layout.",
+    tags: ["Photography", "Portfolio", "Multi-Page", "Mobile-First"],
+    liveUrl: "https://www.markshotthis.com",
+    repoUrl: "",
+    year: 2025,
+    image: "/images/mark-shot-this.png",
+  },
+  {
+    slug: "powerson-protection",
+    title: "Powerson Protection — Executive Security Services",
+    description:
+      "Premium brand website for an executive protection & global security firm. Features a bold dark aesthetic, service breakdown, contact funnel, and trust-building stats across NY, NJ, PA, CT, and FL.",
+    tags: ["Business Website", "Landing Page", "SEO", "Mobile-First"],
+    liveUrl: "https://www.powersonprotection.com",
+    repoUrl: "",
+    year: 2025,
+    image: "/images/powerson-protection.png",
+  },
 ];
 // ──────────────────────────────────────────────────────────────────────────────
